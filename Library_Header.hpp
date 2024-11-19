@@ -1,5 +1,5 @@
-#ifndef library_class
-#define library_class 
+#ifndef Library_Main
+#define Library_Main 
 #include <iostream>  
 #include <string>  
 
