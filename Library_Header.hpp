@@ -31,7 +31,7 @@ protected:
 class Books : public Library {  
 public:  
     // Constructor to initialize the Books class attributes. Attributes from Library class are inherited.
-    Books(string t, int y, string g, string a, int p, int ch) : Library(t, y, g)) {
+    Books(string t, int y, string g, string a, int p, int ch) : Library(t, y, g) {
         author = a;
         pages = p;
         chapters = ch;
